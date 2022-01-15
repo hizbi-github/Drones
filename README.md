@@ -3,9 +3,9 @@
 
 This is a small guide that contains some information about drones/quadcopters that I collected during my internship.
 
-Here, the "Hexatron" refers to the product that was being designed. It was a hexapod base with elements of quadcopter integreted into it.
+Here, the "Hexatron" refers to the product that was being designed. It was a hexapod base with elements of quadcopter integrated into it.
 
-Its purpose was to navigate tough terrains where it was difficult for the humans.
+Its purpose was to navigate tough terrains where it was difficult for the humans to do so.
 
 NOTE: The idea for Hexatron wasn't originally mine. I was just tasked to work on the drone part.
 
