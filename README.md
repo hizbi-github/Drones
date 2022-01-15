@@ -37,7 +37,7 @@ NOTE: The idea for Hexatron wasn't originally mine. I was just tasked to work on
 
     -> FPV System with Camera, Goggles, Gimbal, etc.
 
-# Algorithms Processing IMU Data
+# Algorithms for Processing IMU Data
 
 Complementary Filter:
     
@@ -95,9 +95,9 @@ This feedback loop in the Flight Controller must run at high speed (at least 1kH
 
 One might think of just using the Flight Computer (e.g. Raspberry Pi) for all the tasks performed by the Flight Controller. But the problem arises 
 when high reaction speed and good stability is required from the Drone. That is because the Flight Computer is not directly able to communicate
-with the motors, sensors and PID controllers directly since it has a OS layer. This reduces the operating speed of the Drone. A Flight Computer may also be running other heavy tasks such as Image Processing which can easily slow down the CPU, thus de-stabilizing the Drone.
+with the motors, sensors and PID controllers directly since it has an OS layer. This reduces the operating speed of the Drone. A Flight Computer may also be running other heavy tasks such as Image Processing which can easily slow down the CPU, thus de-stabilizing the Drone.
 
-A Flight Controller on the other hand, doesn't have a OS, and it is able to to communicate and control the IMU Sensor and Motor Controller directly at a set speed. This way the Drone is able to stay in air and hover without falling to the ground due to de-stabilization.
+A Flight Controller on the other hand, doesn't have an OS, and it is able to to communicate and control the IMU Sensor and Motor Controller directly at a set speed. This way the Drone is able to stay in air and hover without falling to the ground due to de-stabilization.
 
 Good video on this topic: 
     
@@ -121,7 +121,21 @@ One of the main reason for its heavy weight are the multiple servos used for ope
 
 ## Interesting comment from a user on Reddit
 
-    "An octocopter would be easier (and possibly cheaper) for that much load capacity. For a 2kg airframe which is a bit optimistic including batteries, you'd want about 14kg max thrust for the best handling, so 1.75 per corner. You'd want somewhere in the region of 500W to 600W per motor to do that. 80A speed controllers, then some big ass batteries to power it all, 3 x 5000mAh 3S 45c wired in parallel would be enough to get you about 5-10 minutes of flight without being overloaded. As for props, you're probably looking at 14" or so depending on the KV rating of the motors you get."
+    "An octocopter would be easier (and possibly cheaper) for that much load capacity. 
+
+    For a 2kg airframe which is a bit optimistic including batteries, you'd want about 
+
+    14kg max thrust for the best handling, so 1.75 per corner. You'd want somewhere in 
+
+    the region of 500W to 600W per motor to do that. 80A speed controllers, then some 
+
+    big ass batteries to power it all, 3 x 5000mAh 3S 45c wired in parallel would be 
+
+    enough to get you about 5-10 minutes of flight without being overloaded. As for the 
+
+    propellers, you're probably looking at 14" or so depending on the KV rating of the 
+
+    motors you get."
 
 # Important Drone Data in a Spreadsheet (not mine)
 
@@ -181,7 +195,9 @@ For comparison, a common motor used in drone (specs: 2207/1000KV) has a thrust o
 
 Motors dimensions are represented with four digits; where the first two are for the motor stator's width and the last two digits tells us about its height.
 
-For Example: (2212) would mean 22 mm width and 12 mm height for motor's stator.
+For Example: 
+
+    "2212" would mean 22 mm width and 12 mm height for motor's stator.
 
 The KV Rating of a motor gives us the max RPM at the supplied voltage. The standard KV Rating is for RPM at 1 volts applied to the motor.
 
@@ -203,7 +219,7 @@ Another way for writing propeller specs might be in this format:
 
 For example: 
 
-    (10x4.5x2) would mean a propeller with a diameter of 10 inch, pitch of 4.5 inch and with 2 blades.
+    "10x4.5x2" would mean a propeller with a diameter of 10 inch, pitch of 4.5 inch and with 2 blades.
 
 # Communication with Hexatron
 
