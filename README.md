@@ -121,21 +121,17 @@ One of the main reason for its heavy weight are the multiple servos used for ope
 
 ## Interesting comment from a user on Reddit
 
-    "An octocopter would be easier (and possibly cheaper) for that much load capacity. 
-
-    For a 2kg airframe which is a bit optimistic including batteries, you'd want about 
-
-    14kg max thrust for the best handling, so 1.75 per corner. You'd want somewhere in 
-
-    the region of 500W to 600W per motor to do that. 80A speed controllers, then some 
-
-    big ass batteries to power it all, 3 x 5000mAh 3S 45c wired in parallel would be 
-
-    enough to get you about 5-10 minutes of flight without being overloaded. As for the 
-
-    propellers, you're probably looking at 14" or so depending on the KV rating of the 
-
-    motors you get."
+    "An octocopter would be easier (and possibly cheaper) for that much load capacity. For a 2kg airframe 
+    
+    which is a bit optimistic including batteries, you'd want about 14kg max thrust for the best handling, 
+    
+    so 1.75 per corner. You'd want somewhere in the region of 500W to 600W per motor to do that. 80A speed 
+    
+    controllers, then some big ass batteries to power it all, 3 x 5000mAh 3S 45c wired in parallel would be 
+    
+    enough to get you about 5-10 minutes of flight without being overloaded. As for the propellers, you're 
+    
+    probably looking at 14" or so depending on the KV rating of the motors you get."
 
 # Important Drone Data in a Spreadsheet (not mine)
 
@@ -276,10 +272,7 @@ Best option is to use a combination of two antennas, such as:
 
 The antenna selection applies to both FPV Camera Tx/Rx and the Remote Control Tx/Rx.
 
-
-
-
-# Some Useful Component Links
+# Some Useful Links for the Components
 
 Pixhawk Flight Controller: 
 
